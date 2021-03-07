@@ -12,6 +12,7 @@ class PanelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
         "/" : (context) =>  new HomePage()
